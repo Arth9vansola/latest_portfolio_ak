@@ -4,22 +4,44 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --theme-primary: #050816;
+  --theme-secondary: #aaa6c3;
+  --theme-tertiary: #151030;
+  --theme-textPrimary: #ffffff;
+  --theme-textSecondary: #aaa6c3;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
+}
 
+body {
+  background-color: var(--theme-primary);
+  color: var(--theme-textPrimary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
+/* Hide default cursor for custom cursor effect on desktop only */
+@media (min-width: 768px) {
+  body {
+    cursor: none;
+  }
+}
+
+/* Show cursor on interactive elements for accessibility */
+button, a, input, textarea {
+  cursor: pointer !important;
 }
 
 
 
 .hash-span {
   margin-top: -100px;
-  padding-bottom: 100px;
   display: block;
 }
 

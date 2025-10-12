@@ -8,6 +8,13 @@ import Works from "./Works";
 import Certifications from "./Certifications";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import ParticleBackground from "./ParticleBackground";
+import CustomCursor from "./CustomCursor";
+import LoadingScreen from "./LoadingScreen";
+import FloatingActionButton from "./FloatingActionButton";
+import ThemeToggle from "./ThemeToggle";
+import ScrollProgress from "./ScrollProgress";
+import StatsSection from "./StatsSection";
 
 
 export {
@@ -22,5 +29,12 @@ export {
   CanvasLoader,
   EarthCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  ParticleBackground,
+  CustomCursor,
+  LoadingScreen,
+  FloatingActionButton,
+  ThemeToggle,
+  ScrollProgress,
+  StatsSection
 };
