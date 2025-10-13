@@ -24,6 +24,7 @@ body {
   background-color: var(--theme-primary);
   color: var(--theme-textPrimary);
   transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
 }
 
 /* Hide default cursor for custom cursor effect on desktop only */
