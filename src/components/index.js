@@ -9,7 +9,7 @@ import Certifications from "./Certifications";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import ParticleBackground from "./ParticleBackground";
-import CustomCursor from "./CustomCursor";
+
 import LoadingScreen from "./LoadingScreen";
 import FloatingActionButton from "./FloatingActionButton";
 import ThemeToggle from "./ThemeToggle";
@@ -31,7 +31,7 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   ParticleBackground,
-  CustomCursor,
+
   LoadingScreen,
   FloatingActionButton,
   ThemeToggle,

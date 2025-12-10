@@ -12,7 +12,6 @@ import {
   Certifications, 
   StarsCanvas,
   ParticleBackground,
-  CustomCursor,
   LoadingScreen,
   FloatingActionButton
 } from "./components";
@@ -30,10 +29,6 @@ const App = () => {
       <BrowserRouter>
         {/* Loading Screen */}
         {isLoading && <LoadingScreen onLoadComplete={handleLoadComplete} />}
-        
-        {/* Custom Cursor */}
-        <CustomCursor />
-        
         
         {/* Floating Action Button */}
         <FloatingActionButton />

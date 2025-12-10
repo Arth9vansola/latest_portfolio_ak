@@ -27,17 +27,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Hide default cursor for custom cursor effect on desktop only */
-@media (min-width: 768px) {
-  body {
-    cursor: none;
-  }
-}
 
-/* Show cursor on interactive elements for accessibility */
-button, a, input, textarea {
-  cursor: pointer !important;
-}
 
 
 
