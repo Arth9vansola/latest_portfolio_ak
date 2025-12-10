@@ -12,6 +12,7 @@ import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import gearXpert from './gearXpert.png';
 import carmarketplacesite from './carmarketplacesite.png'
+import landingPage from './landingPage.png'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
@@ -78,4 +79,5 @@ export {
   seleniumCert,
   oracleAiCert,
   googleCvCert,
+  landingPage
 };

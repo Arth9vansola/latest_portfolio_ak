@@ -39,6 +39,7 @@ import {
   seleniumCert,
   oracleAiCert,
   googleCvCert,
+  landingPage,
 } from '../assets'
 
 
@@ -224,6 +225,15 @@ const projects = [
     image: carmarketplacesite,
     source_code_link: "https://github.com/Arth9vansola/carMarketPlace_ai",
     deployed_link: "https://car-market-place-ai-ten.vercel.app/",
+  },
+    {
+    name: "Zinter - Real-Time Collaborative Coding Platform",
+    description:
+      "A full-stack web application for conducting live coding interviews with integrated video calls, real-time chat, and collaborative code execution.",
+    tags: [],
+    image: landingPage,
+    source_code_link: "https://github.com/Arth9vansola/zinter",
+    deployed_link: "https://zinter.onrender.com/",
   },
 ];
 
