@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import { Tilt } from "react-tilt";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -48,16 +47,11 @@ const ProjectCard = ({
 
   return (
     <div ref={cardRef}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      <div
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl"
       >
         <div 
-          className="relative w-full h-[230px] cursor-pointer hover:opacity-90 transition-opacity duration-300"
+          className="relative w-full h-[230px] cursor-pointer transition-opacity duration-300"
           onClick={() => deployed_link && window.open(deployed_link, "_blank")}
         >
           <img
@@ -98,7 +92,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </div>
     </div>
   );
 };
